@@ -581,14 +581,18 @@ body{
 
 @media(max-width:426px){
     .banner-img-1 {
-        height: 247px;
-        overflow: hidden;
+        height: 230px;
     }
 
     .section-1-wrapper {
         flex-direction: column;
         align-items: center;
     }
+
+    .banner-2__img {
+        height: 230px;
+    }
+
     .section-1-grid {
         flex-direction: column;
         align-items: center;
@@ -622,13 +626,13 @@ body{
         margin-right: 0px;
     }
 
-    .counter{
-        justify-content: space-evenly;
-    }
     .speciality-wrapper{
         flex-direction: column;
-        align-items: center;
         margin: 20px;
+    }
+
+    .speciality-desc {
+        margin-right: 0px;
     }
 
     .speciality-img {
@@ -643,6 +647,7 @@ body{
 
     .services-section{
         margin-top: 0;
+        gap: 30px;
     }
 
     .tags_wrapper_2 {
@@ -651,6 +656,10 @@ body{
 
     .logos-wrapper{
         display: none;
+    }
+
+    .tags{
+        align-items: center;
     }
 
     .footer{

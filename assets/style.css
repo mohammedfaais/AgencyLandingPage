@@ -640,6 +640,10 @@ body{
         margin-right: 0px;
     }
 
+    .speciality-desc, .speciality-header{
+        margin-left: 7px;
+    }
+
     .speciality-img {
         height: 200px;
         margin-top: 20px;

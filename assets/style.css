@@ -618,6 +618,10 @@ body{
         margin-left: 30px;
     }
 
+    .services {
+        margin: 20px;
+    }
+
     .services-header__wrapper{
         flex-direction: column;
     }
@@ -628,7 +632,8 @@ body{
 
     .speciality-wrapper{
         flex-direction: column;
-        margin: 20px;
+        align-items: center;
+        margin: 7px;
     }
 
     .speciality-desc {
